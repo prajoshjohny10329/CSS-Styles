@@ -1,0 +1,30 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container {
+    position: relative;
+    width: 300px; /* Adjust according to your design */
+    height: 300px; /* Adjust according to your design */
+    overflow: hidden;
+}
+
+.directional-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-out; /* Smooth transition for rotation */
+}
